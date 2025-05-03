@@ -15,9 +15,7 @@ app.use(express.static(path.join(__dirname, 'views')));
 
 connectDB()
 .then(() => {
-    app.listen(process.env.PORT || 8000, () => {
-        console.log(`Server is running at port: ${process.env.PORT}`);
-    });
+   console.log("Vercel Deployment Success: MongoDB Connected");
 })
 .catch((error) => {
     console.error("MONGO DB Connection Failed:\n", error);
