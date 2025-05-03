@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+     <div class="bg-zinc-800 w-full min-h-screen text-white p-10 ">
+        <h4 class="text-2xl mb-5">Edit Your Blog</h4>
+      <form action="/edit/<%= blog._id%>" method="post"> 
+         <div class="flex flex-wrap gap-3 w-2/3 text-white">    
+               <input type="text" name="title" placeholder="Title" class="block w-full h-fit rounded-md p-2 bg-zinc-600 text-white outline-none" value="<%= blog.title %>">
+               <textarea class="w-full outline-none rounded-md bg-zinc-600 p-2 min-h-40 resize-none" placeholder="Blog Description" name="description"><%= blog.description %></textarea>
+               <input type="submit" class="bg-blue-500 text-white rounded-md p-2 text-md" value="Edit Blog">
+         </div>
+      </form>
+     </div>
+</body>
+</html>
