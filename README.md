@@ -1,5 +1,16 @@
-#WELCOME TO MY BLOG RECORD PROJECT 
+# WELCOME TO MY BLOG RECORD PROJECT 
 
-This is a Fundamental Project where a User creates their Blogs , Edit or Delete it.
+# TITLE 
+Basic Blog Website
+
+## FEATURES
+
+- CRUD Operations on BLOGS
+
+## TECH STACK 
+
+- Frontend: HTML, CSS,JavaScript
+- Backend: Node.js, Express.js
+- Database: MongoDB
 
 Suggestions for further improvements are heartly welcomed! 
