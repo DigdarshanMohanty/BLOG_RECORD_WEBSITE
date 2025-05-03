@@ -1,11 +1,12 @@
 const express = require('express');
-const app = express();
 const path = require('path');
 const dotenv = require('dotenv');
 const connectDB = require('./db/dbconnection');
 const blogRoutes = require('./routes/blogRoutes');
 
 dotenv.config({ path: './.env' });
+
+const app = express();
 
 app.set('view engine', 'ejs');
 app.use(express.json());
@@ -23,3 +24,5 @@ connectDB()
 });
 
 app.use('/', blogRoutes);
+
+module.exports = app;
