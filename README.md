@@ -20,4 +20,4 @@ Basic Blog Website
 3. Run Command : NPM RUN DEV
 4. Enjoy adding and maintaining your daily Blogs :)
 
-Suggestions for further improvements are heartly welcomed!
+Suggestions for further improvements are heartly Welcomed !!
