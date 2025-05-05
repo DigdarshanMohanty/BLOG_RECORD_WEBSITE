@@ -38,5 +38,4 @@ Follow these simple steps to see the project in action:
 - Improving UI design
 
 💡 **Suggestions**
-Got ideas for improvements? Feel free to share them!
-Your feedback is heartily welcomed! 😊
+* Got ideas for improvements? Feel free to share them! Your feedback is heartily welcomed! 😊
