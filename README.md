@@ -24,7 +24,9 @@ Follow these simple steps to see the project in action:
 
 - Create a .env file in the project directory.
 - Add your MongoDB connection string as DB_URL in the .env file and Port Number in PORT variable.
-- Example: - DB_URL=your-mongodb-atlas-connection-string , - PORT = 3000
+- Example:
++ DB_URL=your-mongodb-atlas-connection-string
++ PORT = 3000
 
 3. Install Dependencies:
    * npm install
