@@ -9,10 +9,14 @@ const BlogModel = mongoose.Schema(
     description: {
         type: String,
         required: true,
+    },
+    imageUrl: {
+        type: String,
+        required: false
     }
 },
 {
-    timestamp: true
+    timestamps: true
 }
 );
 
